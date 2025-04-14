@@ -9,24 +9,25 @@
 <body class="bg-[#f4ebd6] font-sans">
 
 <!-- Header -->
-<div class="bg-[#f4c988] px-[50px] py-5 flex items-center justify-between border-b border-orange-300 relative">
-  <div class="flex items-center gap-3">
-    <img src="{{ asset('Logo.png') }}" class="w-[80px] h-auto object-contain">
+<header class="flex items-center justify-between px-6 py-4 border-b border-orange-300 bg-[#f4c988]">
+    <div class="flex items-center space-x-2">
+    <img src="logo.png" alt="Tudung Saji" class="h-[7vh] w-[6vw] ">
+    </div>
+    <h1 class="text-2xl font-bold">
+      Tambah <span class="text-orange-600">Resep</span>
+    </h1>
+    <div class="flex items-center space-x-2">
+    <span class="font-medium">Raysha Tazkiya Rahim</span>
+    <div class="w-8 h-8 bg-orange-400 rounded-full flex items-center justify-center text-white font-bold">R</div>
   </div>
-  <div class="absolute left-1/2 transform -translate-x-1/2 text-[22px] font-bold">
-    Tambah <span class="text-[#b5332e]">Resep</span>
-  </div>
-  <div class="flex items-center gap-2">
-    <div class="bg-[#ffcc99] rounded-full w-7 h-7 flex items-center justify-center font-bold text-white">👤</div>
-    <div>Raysha Tazkiya Rahim</div>
-    <button class="bg-transparent border-none cursor-pointer">▼</button>
-  </div>
-</div>
+  </header>
 
 <!-- Breadcrumb -->
-<div class="text-sm mt-4 mb-2 px-8">
-  &lt; <a href="#" class="text-gray-800 no-underline">Beranda</a> &lt; <strong>Tambah Resep</strong>
-</div>
+<nav class="px-6 py-3 mx-6 mt-4 flex items-center text-sm text-black space-x-2">
+  <a href="/dashboard" class="font-semibold hover:underline transition">Beranda</a>
+  <span class="text-gray-400">›</span>
+  <a href="#" class="font-semibold hover:underline transition">Tambah Resep</a>
+</nav>
 
 <!-- Konten -->
 <div class="flex gap-5 px-8 pb-8">
