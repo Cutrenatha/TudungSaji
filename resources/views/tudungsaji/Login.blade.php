@@ -82,12 +82,12 @@
           <div class="text-right text-sm text-orange-500 hover:underline">
             Forgot Password
           </div>
-          <button
-            type="submit"
-            class="btn-animated w-full bg-orange-500 text-white py-2 rounded hover:bg-orange-600 transition"
-          >
+             <a
+            href="/dashboard"
+            class="btn-animated block text-center w-full bg-orange-500 text-white py-2 rounded hover:bg-orange-600 transition" >
             LOGIN
-          </button>
+          </a>
+
         </form>
         <div class="flex items-center my-6">
           <hr class="flex-grow border-gray-300" />
@@ -104,7 +104,7 @@
         </div>
         <p class="mt-6 text-center text-sm text-gray-700">
           Don’t have account? 
-          <a href="#" class="text-orange-600 hover:underline">Sign Up</a>
+          <a href="/register" class="text-orange-600 hover:underline">Sign Up</a>
         </p>
       </div>
     </div>
